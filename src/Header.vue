@@ -1,7 +1,12 @@
 <template>
     <div class="container-flex">
         <div class="header-vacio">
-            <div>Holamanola.</div>
+            <div class="container">
+                <form class="buscador">
+                    <input class="form-control form-control-lg" type="text" placeholder="Buscar...">
+                    <i class="fas fa-search"></i>
+                </form>
+            </div>
         </div>
         </div>
 </template>
@@ -22,5 +27,8 @@
         background: #003399;
         height: 30vh;
         color: bisque;
+    }
+    .buscador {
+        margin-top: 30px;
     }
 </style>
