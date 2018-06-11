@@ -1,7 +1,9 @@
 <template>
-    <div class="container-flex header-vacio">
-        <div>Holamanola.</div>
-    </div>
+    <div class="container-flex">
+        <div class="header-vacio">
+            <div>Holamanola.</div>
+        </div>
+        </div>
 </template>
 
 <script>
@@ -19,5 +21,6 @@
     .header-vacio {
         background: #003399;
         height: 30vh;
+        color: bisque;
     }
 </style>

@@ -1,15 +1,15 @@
 <template>
-  <div id="app">
-    <header></header>
-    <img src="./assets/logo.png">
-    <h1>{{ msg }}</h1>
-    <h2>Essential Links</h2>
-    <h2>Ecosystem</h2>
-  </div>
+    <div id="app">
+      <Header></Header>
+      <img src="./assets/logo.png">
+      <h1>{{ msg }}</h1>
+      <h2>Essential Links</h2>
+      <h2>Ecosystem</h2>
+    </div>
 </template>
 
 <script>
-import header from './header.vue';
+import Header from './Header.vue';
 export default {
   name: 'app',
   data: function() {
@@ -18,7 +18,7 @@ export default {
     }
   },
   components: {
-    header
+    Header
   
   }
 }
